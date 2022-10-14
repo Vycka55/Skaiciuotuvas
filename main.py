@@ -50,4 +50,17 @@ btn_3.grid(row=3, column=2, padx=(1), pady=1)
 btn_plus = Button(buttons_frame, text='+')
 btn_plus.grid(row=3, column=3, padx=(1), pady=1)
 
+btn_plusminus = Button(buttons_frame, text='+/-')
+btn_plusminus.grid(row=4, column=0, padx=(1), pady=1)
+
+btn_0 = Button(buttons_frame, text='0')
+btn_0.grid(row=4, column=1, padx=(1), pady=1)
+
+btn_kab = Button(buttons_frame, text=',')
+btn_kab.grid(row=4, column=2, padx=(1), pady=1)
+
+btn_kab = Button(buttons_frame, text='=')
+btn_kab.grid(row=4, column=3, padx=(1), pady=1)
+
+
 mainloop()
