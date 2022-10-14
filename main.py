@@ -11,7 +11,7 @@ root.maxsize(500, 500)
 root.columnconfigure(0, weight=0)
 root.columnconfigure(1, weight=0)
 
-#text boxas
+#text boxas aaa
 
 
 
