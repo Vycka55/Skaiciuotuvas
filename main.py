@@ -4,8 +4,8 @@ from tkinter import scrolledtext
 
 langas=Tk()
 
-# Parent widget for the buttons
 
+#Mygtukai
 
 tekst = Entry()
 tekst.grid(row=0, column=0)
@@ -13,6 +13,7 @@ tekst.grid(row=0, column=0)
 buttons_frame = Frame(langas)
 buttons_frame.grid(row=1, column=0, sticky=W+E) 
 
+buttn = ()
 
 btn_7 = Button(buttons_frame, text='7')
 btn_7.grid(row=1, column=0, padx=(0), pady=0)
@@ -23,7 +24,7 @@ btn_8.grid(row=1, column=1, padx=(0), pady=0)
 btn_9 = Button(buttons_frame, text='9')
 btn_9.grid(row=1, column=2, padx=(0), pady=0)
 
-btn_x = Button(buttons_frame, text='X')
+btn_x = Button(buttons_frame, text='x')
 btn_x.grid(row=1, column=3, padx=(0), pady=0)
 
 btn_4 = Button(buttons_frame, text='4')
